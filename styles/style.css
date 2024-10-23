@@ -229,6 +229,77 @@ body {
   margin-top: 0.5rem;
 }
 
+/* Extra mile run section */
+.extra-mile{
+    width: 100%;
+}
+.extra-mile-run{
+    border-radius: 0.75rem;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    width: 100%;
+}
+.extra-mile-run h3{
+    width: 27rem;
+    height: 7.25rem;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.extra-mile-run p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.extra-mile-content{
+    width: 550px;
+    height: 290px;
+    margin-left: 2rem;
+}
+.extra-mile-img{
+    width: 100%;
+}
+.extra-mile-img img{
+  
+    width: 31.125rem;
+
+    border-radius: 0.75rem;
+   height: 290px;
+   right: 1.5rem;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 @media (max-width: 992px) {
   .logo h3 {
