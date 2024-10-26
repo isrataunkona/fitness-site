@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/605c1f1072.js" crossorigin="anonymous"></script>
     <title>Fiteness Related Website</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -32,19 +33,16 @@
                 <li>
                     <a href="">About</a>
                 </li>
-    
-                <!-- <li> -->
-                    <div class="bar-option"><i class="fa-solid fa-bars"></i></div>
-                <!-- </li> -->
+                <li>
+                    <div id="bar-option"><i class="fa-solid fa-bars"></i></div>
+                </li>
+               
             </ul>
         </div>
      </nav>
         </div>
-        
-     
     </section>
-    
-
+      <!-- Navbar -->
     <section class="container navbar-banner popular-section">
         
         <div class="text-content">
@@ -70,12 +68,8 @@
                 <span id="span">Video tutorial</span>
             </button>    
         </div>
-        
-        
       </section>
    </div>
-      
-    
       <section  class="container habit-section">
         <div>
             <h3>Change Your Habits</h3>
@@ -117,7 +111,178 @@
             </div>
         </div>
        </section>
-        
+       <!-- Our Membership plan -->
+        <section class="membership-plan">
+            <button class="btn-primary package">Package Plan</button>
+            <h2>Our Membership Plans</h2>
+            <div class="container membership-div">
+                <div class="card">
+                    
+                    <h3><i class="fa-solid fa-dumbbell"></i>Fitness Recovary</h3>
+                    <ul>
+                        <li>Physiotherapist’s Supervision</li>
+                        <li>One-on-One training</li>
+                        <li>Regular Consultation</li>
+                        <li>3-6-12 month’s plans</li>
+                    </ul>
+                    <button class="btn-primary member">Enroll Now!</button>
+                </div>
+                <div class="card">
+                    <i class="fa-thin fa-watch-fitness"></i>
+                    <h3><i class="fa-solid fa-dumbbell"></i>Supervised Training</h3>
+                    <ul>
+                        <li>One-on-One Training</li>
+                        <li>Monthly Consultation</li>
+                        <li>Access to BCA report</li>
+                        <li>Monthly to Yearly Plan</li>
+                    </ul>
+                    <button class="btn-primary member">Enroll Now!</button>
+                </div>
+                <div class="card">
+                    <i class="fa-thin fa-watch-fitness"></i>
+                    <h3><i class="fa-solid fa-dumbbell"></i>Gym Membership</h3>
+                    <ul>
+                        <li>Assistance</li>
+                        <li>BCA Report at Enrolment</li>
+                        <li>Fitness Consultation</li>
+                        <li>Nutrition Plan</li>
+                    </ul>
+                    <button class="btn-primary member">Enroll Now!</button>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+      <!-- BMI Calculator -->
+       <section class="BMI-calculator">
+        <div class="calculator">
+            <h3>BMI Calculator</h3> <br> <br>
+        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+        </div>
+       </section>
+       <section class="BMI-calculator-form">
+        <div class="calculator-chart">
+            <table class="calculator-table">
+                <caption class="table-caption"> <strong>BMA Calculator Chart</strong> </caption>
+            
+                <thead id="thead">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - above</td>
+                        <td>Obese</td>
+                    </tr>
+            </table>
+        </div>
+        <div class="calculator-form"> 
+            <div class="calculator-text">
+                <h3>Calculate your BMI</h3>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</p>
+            </div>
+            <div class="form-section">
+                <div class="value1">
+                    <input type="text" name="" id="input" placeholder="Height/cm">
+                    <input type="text" name="" id="input" placeholder="Weight/cm">
+                </div>
+                <div class="value1">
+                    <input type="text" name="" id="input" placeholder="Age">
+                    <select name="" id="select">
+                        <option value="">Sex</option>
+                    </select>
+                </div>
+                <div class="value2">
+                    <select name="" id="select2">
+                        <option value="">Select an acitivity Factor</option>
+                    </select>
+                </div>
+                <br> 
+                <button class="btn-primary">Calculate</button>
+            </div>
+        </div>
+       </section>
+       <!-- Meet our team-->
+       <section class="container team-meeting">
+        <div>
+            <h3>Meet Our Team</h3>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <div id="team-div">
+            <div class="img-card">
+                <img src="images/trainer1.png" alt="">
+                <h4>Jorome Bell</h4>
+                <h5>Trainer</h5>
+            </div>
+            <div class="img-card">
+                <img src="images/trainer2.png" alt="">
+                <h4>Cameron Willamson</h4>
+                <h5>Trainer</h5>
+            </div>
+            <div class="img-card">
+                <img src="images/trainer3.png" alt="">
+                <h4>Darrell Steward</h4>
+                <h5>Trainer</h5>
+            </div>  
+            <div class="img-card">
+                <img src="images/trainer4.png" alt="">
+                <h4>Dianne Russell</h4>
+                <h5>Trainer</h5>
+            </div>
+            <div class="img-card">
+                <img src="images/trainer5.png" alt="">
+                <h4>Cody Fisher</h4>
+                <h5>Trainer</h5>
+            </div>
+            <div class="img-card">
+                <img src="images/trainer6.png" alt="">
+                <h4>Therera Webb</h4>
+                <h5>Trainer</h5>
+            </div>
+        </div>
+       </section>
+       <!-- Footer -->
+       <footer>
+        <div class="footer-section">
+            <div class="logo footer1">
+                <h3>Fitness</h3>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer2">
+                <h5>Get Started</h5>
+                <p>Service</p>
+                <p>Contract Us</p>
+                <p>Affiliate Program</p>
+                <p>About Us</p>
+            </div>
+            <div class="footer3">
+                <h5>Get Started</h5>
+                <p>Fitness</p>
+                <p>Platform</p>
+                <p>Work Library</p>
+                <p>App Design</p>
+            </div>
+        </div>
+        <p class="footer-text">&copy; 2024, All Rights Reserve</p>
+       </footer>
         
 </body>
 </html>
