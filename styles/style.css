@@ -762,4 +762,28 @@ footer{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  
+  /* Footer Section */
+  footer{
+    height: 986px;
+    width: 100%;
+  }
+  .footer-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logo h3{
+    font-size: xx-large;
+  }
+  .footer1 p{
+    width: 300px;
+    font-size: medium;
+    padding-top: 1.5rem;
+  }
+  .footer1, .footer2, .footer3{
+    margin-left: 8rem;
+  }
+  .footer-text{
+    margin-left: 8rem;
+  }
 }
