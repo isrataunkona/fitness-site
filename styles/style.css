@@ -748,4 +748,18 @@ footer{
   #select2{
     width: 420px;
   }
+  .team-meeting h3{
+    margin-left: 1rem;
+  }
+  .team-meeting p{
+    margin-left: -0.5rem;
+    width: 400px;
+  }
+  #team-div{
+    margin-left: 0.25rem;
+    width: 380px;
+    height: 1750px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
