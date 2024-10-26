@@ -672,5 +672,80 @@ footer{
   .habit-section h3 {
     font-size: 2rem;
   }
-  
+  /* extra mile section */
+  .extra-mile-run{
+    width: 400px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .extra-mile-content{
+    width: 100%;
+  }
+  .extra-mile-content p{
+    width: 320px;
+  }
+  .extra-mile-img img{
+    margin-top: 2rem;
+    width: 19.85rem;
+    height: 16.375rem;
+  }
+   /* package section */
+   .membership-plan{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+    height: 700px;
+  }
+  .member{
+    margin: 2rem;
+  }
+  .package{
+    width: 170px;
+    margin-left: 11rem;
+  }
+  .membership-plan h2{
+    margin: 1.5rem;
+    width: 200rem;
+    font-size: 2.5rem;
+  }
+  .membership-div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+    height: 1050px;
+  }
+  .card{
+    height: 300px;
+    padding: 1.25rem 3rem;
+  }
+  .BMI-calculator{
+    margin-top: 700px;
+    margin-left: -16rem;
+  }
+  .BMI-calculator-form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 482px;
+    height: 770px;
+  }
+  .calculator-table{
+    margin-left: -8rem;
+  }
+  .calculator-text{
+    width: 300px;
+    margin-left: 3rem;
+  }
+  .calculator-text p{
+    width: 450px;
+    margin-left: -0.20rem;
+  }
+  .form-section{
+    width: 450px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+  #select2{
+    width: 420px;
+  }
 }
